@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/topTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="COJI Scan Page"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/refreshBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/bottomTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Please turn on COJI and select it on above table."
+        android:textAlignment="center"
+        android:textSize="10dp"
+        android:layout_alignParentBottom="true"/>
+
+    <ListView
+        android:id="@+id/connectionTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topTV"
+        android:layout_above="@id/bottomTV"></ListView>
+
+</RelativeLayout>
