@@ -71,4 +71,5 @@ Tell your friends, fork our project, buy our car and share with us your own proj
 Projects using this SDK
 ---------------------------------
 * [WowWee COJI Robotic Enhance Vehicles Official App](https://play.google.com/store/apps/details?id=com.wowwee.coji)
+* [Coji Home Assistant Controls](https://github.com/SiloCityLabs/coji-ha)
 * Send us a pull request to add your app here
